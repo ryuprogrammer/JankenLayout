@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct StageView: View {
-    let stage: [stageSituation] = [stageSituation(stage: "ネズミ", situation: true, pasentage: 80),
-                                   stageSituation(stage: "うさぎ", situation: false, pasentage: 60),
-                                   stageSituation(stage: "犬", situation: false, pasentage: 50),
-                                   stageSituation(stage: "ぞう", situation: false, pasentage: 30),
-                                   stageSituation(stage: "パンダ", situation: false, pasentage: 20),
-                                   stageSituation(stage: "人間", situation: false, pasentage: 8),
-                                   stageSituation(stage: "ロボット", situation: false, pasentage: 2)
+    @State var stage: [stageSituation] = [
+        stageSituation(stage: "ネズミ", situation: true, pasentage: 80),
+        stageSituation(stage: "うさぎ", situation: true, pasentage: 60),
+        stageSituation(stage: "犬", situation: true, pasentage: 50),
+        stageSituation(stage: "ぞう", situation: false, pasentage: 30),
+        stageSituation(stage: "パンダ", situation: false, pasentage: 20),
+        stageSituation(stage: "人間", situation: false, pasentage: 8),
+        stageSituation(stage: "ロボット", situation: false, pasentage: 2)
     ]
     
     @State var gameStage: stageSituation? = nil
