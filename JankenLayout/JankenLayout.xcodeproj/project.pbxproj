@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5A1F0E6129C5A6A2001E84B4 /* JankenLayoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F0E6029C5A6A2001E84B4 /* JankenLayoutApp.swift */; };
-		5A1F0E6329C5A6A2001E84B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F0E6229C5A6A2001E84B4 /* ContentView.swift */; };
 		5A1F0E6529C5A6A3001E84B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F0E6429C5A6A3001E84B4 /* Assets.xcassets */; };
 		5A1F0E6929C5A6A3001E84B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F0E6829C5A6A3001E84B4 /* Preview Assets.xcassets */; };
 		5A1F0E7029C5A765001E84B4 /* animationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F0E6F29C5A765001E84B4 /* animationView.swift */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		5A1F0E5D29C5A6A2001E84B4 /* JankenLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JankenLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1F0E6029C5A6A2001E84B4 /* JankenLayoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JankenLayoutApp.swift; sourceTree = "<group>"; };
-		5A1F0E6229C5A6A2001E84B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A1F0E6429C5A6A3001E84B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A1F0E6629C5A6A3001E84B4 /* JankenLayout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JankenLayout.entitlements; sourceTree = "<group>"; };
 		5A1F0E6829C5A6A3001E84B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				5A1F0E6029C5A6A2001E84B4 /* JankenLayoutApp.swift */,
-				5A1F0E6229C5A6A2001E84B4 /* ContentView.swift */,
 				5A1F0E7129C5A8CE001E84B4 /* StageView.swift */,
 				5A1F0E7329C5BD4C001E84B4 /* GameView.swift */,
 				5A1F0E6F29C5A765001E84B4 /* animationView.swift */,
@@ -148,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A1F0E6329C5A6A2001E84B4 /* ContentView.swift in Sources */,
 				5A1F0E7229C5A8CE001E84B4 /* StageView.swift in Sources */,
 				5A1F0E6129C5A6A2001E84B4 /* JankenLayoutApp.swift in Sources */,
 				5A1F0E7029C5A765001E84B4 /* animationView.swift in Sources */,
